@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML Page</title>
+    <style>
+        /* Set the background image */
+        body {
+            background-image: url('background.jpg'); /* Replace 'background.jpg' with your image filename */
+            background-size: cover;  /* Ensures the image covers the whole page */
+            background-position: center center; /* Centers the background image */
+            background-attachment: fixed; /* Keeps the background image fixed while scrolling */
+            margin: 0;
+            font-family: Arial, sans-serif; /* Set a default font */
+            color: white; /* Text color for better contrast */
+        }
+
+        header, nav, section, footer {
+            background-color: rgba(0, 0, 0, 0.5); /* Adds transparency to background */
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px; /* Optional, adds rounded corners */
+        }
+
+        h1, h2, p {
+            margin: 0 0 10px 0;
+        }
+
+        a {
+            color: #ffcc00; /* Bright color for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Simple HTML Page</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home Section</h2>
+        <p>This is the homepage section of the simple HTML page.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Section</h2>
+        <p>This section contains information about the website.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Section</h2>
+        <p>Feel free to reach out!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Simple HTML Page</p>
+    </footer>
+</body>
+</html>
